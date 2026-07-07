@@ -3,7 +3,7 @@ import{useState,useEffect,useRef,FormEvent}from"react";
 import{useRouter}from"next/navigation";
 
 const P="01040036244",PD="0104 003 6244",PI="+201040036244",WN="201040036244";
-const WK="PASTE_WEB3FORMS_KEY_HERE";
+const WK="742dae10-9613-4e67-851b-31fd63040c07";
 
 function trackCall(l="call"){if(typeof window!=="undefined"&&(window as any).gtag)(window as any).gtag("event","click_call",{event_category:"contact",event_label:l});}
 function trackWA(l="wa"){if(typeof window!=="undefined"&&(window as any).gtag)(window as any).gtag("event","click_whatsapp",{event_category:"contact",event_label:l});}
